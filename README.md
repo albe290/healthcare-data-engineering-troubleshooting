@@ -68,7 +68,7 @@ After diagnosing the issue, I followed these key steps to resolve it 👇🏾
 
 **Step 1:** Ran `DESCRIBE STORAGE CREDENTIAL workspace;` to confirm the IAM role Databricks was assuming.
 **Step 2:** Updated the IAM policy in AWS to include `s3:ListBucket`, `s3:GetObject`, and `s3:PutObject` for the hospital wait time bucket.
-**Step 3:** Re-ran the SQL commands to create the **Bronze, Silver, and Gold** locations — all executed successfully ✅
+**Step 3:** Re-ran the SQL commands to create the **Bronze, Silver, and Gold** locations all executed successfully ✅
 
 ---
 
