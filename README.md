@@ -96,7 +96,7 @@ After diagnosing the issue, I followed these key steps to resolve it 👇🏾
 
 ## 🔗 Resources
 
-* [Databricks: External Locations Documentation](https://docs.databricks.com/en/data-governance/unity-catalog/external-locations.html)
+* [Databricks: External Locations (AWS)](https://docs.databricks.com/aws/en/data-governance/unity-catalog/external-locations)
 * [AWS IAM Policy Reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
 * [Delta Lake Overview](https://docs.databricks.com/en/delta/index.html)
 
@@ -111,7 +111,8 @@ After diagnosing the issue, I followed these key steps to resolve it 👇🏾
 
 ---
 
-⭐ **If you found this helpful, feel free to star the repo and connect with me on [LinkedIn](www.linkedin.com/in/aalbertglenn)!**
+⭐ **If you found this helpful, feel free to star the repo and connect with me on [LinkedIn](https://www.linkedin.com/in/aalbertglenn)!**
 
 🧠 *Next up: Integrating Delta Live Tables + Auto Loader for a full production pipeline.*
+
 
