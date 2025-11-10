@@ -111,7 +111,7 @@ After diagnosing the issue, I followed these key steps to resolve it 👇🏾
 
 ---
 
-⭐ **If you found this helpful, feel free to star the repo and connect with me on [LinkedIn](https://linkedin.com/in/albe290)!**
+⭐ **If you found this helpful, feel free to star the repo and connect with me on [LinkedIn](www.linkedin.com/in/aalbertglenn)!**
 
 🧠 *Next up: Integrating Delta Live Tables + Auto Loader for a full production pipeline.*
 
