@@ -12,3 +12,31 @@ When I attempted to create external locations in Databricks, I kept seeing the f
 
 bash
 PERMISSION_DENIED: AWS IAM role does not have READ permissions on s3://hospital-wait-times-bucket-usw2/bronze
+
+
+### ❌ Initial Error Message
+
+Before fixing the IAM permissions, Databricks showed this error:
+
+![IAM Permission Error](images/Permission%20IAM%20Error%20message.png)
+
+
+## 📸 Visual Summary
+
+Here’s a visual walkthrough of how I identified and fixed the Databricks + AWS IAM permission issue step by step 👇🏾  
+
+| 🧭 Step 1 — Identify the IAM Role | 🔐 Step 2 — Update IAM Policy | ✅ Step 3 — Validate in Databricks |
+|----------------------------------|-------------------------------|-----------------------------------|
+| ![Describe Storage Credential](images/step1-describe-storage-role.png) | ![IAM Policy Update](images/step2-iam-policy-update.png) | ![External Location Success](images/step3-external-location-success.png) |
+
+**Step 1:** Ran `DESCRIBE STORAGE CREDENTIAL workspace;` in Databricks SQL to identify the IAM role being used.  
+**Step 2:** Updated the IAM policy in AWS to grant access to my `hospital-wait-times-bucket-usw2`.  
+**Step 3:** Re-ran the SQL queries in Databricks to create external locations — all succeeded instantly ✅  
+
+
+
+
+
+
+
+
