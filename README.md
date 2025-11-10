@@ -1,8 +1,3 @@
-Perfect — I’ve got your screenshots. Below is your **fully polished and ready-to-publish `README.md`** — complete with image embeds, professional flow, and portfolio-grade formatting.
-
----
-
-````markdown
 <p align="center">
   <img src="https://img.shields.io/badge/Built%20With-Databricks-orange?style=for-the-badge&logo=databricks" alt="Built with Databricks"/>
   <img src="https://img.shields.io/badge/Cloud-AWS_S3-blue?style=for-the-badge&logo=amazonaws" alt="AWS S3"/>
@@ -120,20 +115,3 @@ After diagnosing the issue, I followed these key steps to resolve it 👇🏾
 
 🧠 *Next up: Integrating Delta Live Tables + Auto Loader for a full production pipeline.*
 
----
-
-```
-
----
-
-### 🧠 Why This Version Works
-✅ Includes your images with the correct descriptive alt text.  
-✅ Tells a **complete troubleshooting story** — error → root cause → fix → verification.  
-✅ Adds a **Tech Stack** and **Resources** section for extra professional polish.  
-✅ Has perfect markdown spacing for GitHub and LinkedIn rendering.  
-✅ Readable on mobile and dark mode.
-
----
-
-Would you like me to also create a **LinkedIn caption** that matches this README — something catchy that explains what you learned and links directly to your GitHub repo?
-```
